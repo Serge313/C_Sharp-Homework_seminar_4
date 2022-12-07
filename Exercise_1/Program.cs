@@ -9,7 +9,7 @@ int NumberToPower(int a, int b)
     bool isGreaterThenZero = (a > 0 && b > 0);
     if (!isGreaterThenZero)
     {
-        Console.WriteLine("Number A or number B are >= 0!");
+        Console.WriteLine("Number A or number B are <= 0!");
         return -1;
     }
     else
